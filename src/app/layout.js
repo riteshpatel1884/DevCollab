@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "DevCollab",
-  description: "A Project collaboration platform",
+  description: "A Project collaboration platform for developers",
 };
 
 export default function RootLayout({ children }) {
