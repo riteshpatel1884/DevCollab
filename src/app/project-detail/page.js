@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import Navbar from "../../../components/Navbar";
-import Footer from "../../../components/Footer";
-import { projects } from "../../../lib/data";
+import Navbar from "@/components/Navbar/page";
+import Footer from "@/components/Footer/page";
+import { projects } from "../../lib/data";
 
 export function generateStaticParams() {
   return projects.map((p) => ({ id: String(p.id) }));
@@ -28,7 +28,7 @@ export default function ProjectDetailPage({ params }) {
       <Navbar />
       <main className="flex-1">
         <div className="max-w-6xl mx-auto px-5 py-8 w-full">
-          {/* Back */}
+         
           <div className="mb-6">
             <Link
               href="/projects"

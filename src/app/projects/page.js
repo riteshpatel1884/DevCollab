@@ -1,6 +1,6 @@
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
-import ProjectCard from "../../components/ProjectCard";
+import Navbar from "@/components/Navbar/page";
+import Footer from "@/components/Footer/page";
+import ProjectCard from "@/components/Projectcard/page";
 import { projects } from "../../lib/data";
 
 export const metadata = {

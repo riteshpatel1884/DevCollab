@@ -1,5 +1,5 @@
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
+import Navbar from "@/components/Navbar/page";
+import Footer from "@/components/Footer/page";
 import { developers } from "../../lib/data";
 
 export const metadata = {
